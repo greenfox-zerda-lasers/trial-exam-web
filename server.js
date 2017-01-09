@@ -2,10 +2,7 @@
 
 var express = require('express');
 var bodyParser = require('body-parser');
-
-function decrypt (shift, text) {
-  return text;
-}
+var decrypt = require('./decrypt.js');
 
 var app = express();
 app.use(bodyParser.json());
@@ -15,6 +12,7 @@ app.get('/', function(req, res) {
 });
 
 app.post('/decode', function(req, res) {
+  console.log(req.body); // { shift: 3, text: 'oruhp lsvxp groru vlw' }
   var shift = req.body.shift;
   var text = req.body.text;
   var decrypted = decrypt(shift, text);
