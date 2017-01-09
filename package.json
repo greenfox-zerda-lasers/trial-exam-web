@@ -1,0 +1,19 @@
+{
+  "name": "kiscica",
+  "version": "1.0.0",
+  "description": "### Getting Started  - Fork this repository under your own account  - Clone the forked repository to your computer  - Commit your progress frequently and with descriptive commit messages  - All your answers and solutions should go in this repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js | faucet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hubudibu/trial-exam-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hubudibu/trial-exam-web/issues"
+  },
+  "homepage": "https://github.com/hubudibu/trial-exam-web#readme"
+}
